@@ -1,0 +1,13 @@
+[package]
+name = "amsibypass"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitflags = "2.6.0"
+
+litcrypt = "0.3.0"
+
+ntapi = "0.4.1"
+
+winapi = { version = "0.3.9", features = ["accctrl", "debugapi", "errhandlingapi", "fileapi", "handleapi", "heapapi", "libloaderapi", "lmapibuf", "lmcons", "lmshare", "memoryapi", "minwindef", "namedpipeapi", "ntdef", "ntlsa", "processthreadsapi", "sddl", "securitybaseapi", "synchapi", "tlhelp32", "winbase", "winerror", "winnt", "winreg", "winsvc", "winuser"] }
