@@ -5,4 +5,5 @@
 - This makes AmsiScanBuffer() to scan only 1 byte of buffer (our commands) which will obviously results in AMSI_RESULT_CLEAN
 
 
+# All credit goes to author of the book "Gray Hat Python". The book helped me in understanding windows api functions that are helpful for debugging the processes.
   
